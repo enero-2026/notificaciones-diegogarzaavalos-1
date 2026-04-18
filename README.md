@@ -36,7 +36,11 @@ import * as Notifications from 'expo-notifications';
 ```
 
 Otorgar permisos
+<<<<<<< HEAD
 ```
+=======
+```javascript
+>>>>>>> dd79589eedf8fe8f6dec0d43c6a6e593e8bd1c5b
 const pedirPermiso = async () => {
   await Notifications.requestPermissionsAsync();
 };
@@ -58,14 +62,22 @@ const enviarNotificacion = async () => {
 ```
 
 UI:
+<<<<<<< HEAD
 ```
+=======
+```javascript
+>>>>>>> dd79589eedf8fe8f6dec0d43c6a6e593e8bd1c5b
 <View style={{ marginTop: 50 }}>
       <Text>Notificaciones</Text>
 
       <Button title="Pedir permiso" onPress={pedirPermiso} />
       <Button title="Enviar notificación" onPress={enviarNotificacion} />
     </View>
+<<<<<<< HEAD
   );
+=======
+
+>>>>>>> dd79589eedf8fe8f6dec0d43c6a6e593e8bd1c5b
 ```
 
 ⚠️ Esto no funciona bien en el navegador, preferentemente usa Android o iOS (puede pedir permisos)
